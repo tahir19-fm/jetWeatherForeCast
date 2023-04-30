@@ -119,7 +119,8 @@ fun MainContent(data: Weather, isImperial: Boolean) {
             .padding(4.dp)
             .size(200.dp),
             shape = CircleShape,
-            color = Color(0xFFFFC400)) {
+            color = Color(0xFF1E989C)
+        ) {
 
             Column(verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally) {
@@ -141,7 +142,7 @@ fun MainContent(data: Weather, isImperial: Boolean) {
         Surface(modifier = Modifier
             .fillMaxWidth()
             .fillMaxHeight(),
-            color = Color(0xFFEEF1EF),
+            color = Color(0xFF0F2416),
             shape = RoundedCornerShape(size = 14.dp)
         ) {
             LazyColumn(modifier = Modifier.padding(2.dp),
